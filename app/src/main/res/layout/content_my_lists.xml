@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="80dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.rahul.cwv2.MyLists"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.98"
+        android:name="com.example.rahul.cwv2.listAbove"
+        android:id="@+id/fragment2" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:name="com.example.rahul.cwv2.buttonBelow"
+        android:id="@+id/fragment"/>
+
+</LinearLayout>

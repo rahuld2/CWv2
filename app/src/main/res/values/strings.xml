@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CW v2</string>
+    <string name="title_activity_my_lists">MyLists</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_create_list">createList</string>
+    <string name="title_activity_create_list2">createList2</string>
+    <string name="title_activity_create_list3">createList3</string>
+    <string name="title_activity_create_list4">createList4</string>
+</resources>
