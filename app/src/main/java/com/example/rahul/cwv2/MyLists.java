@@ -21,7 +21,8 @@ public class MyLists extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_lists);
         Button ViewList = (Button) findViewById(R.id.button3);
-        Log.d(tag,"The onCreate() event");
+        Button ViewList1 = (Button) findViewById(R.id.button4);
+        Log.d(tag, "The onCreate() event");
 
         ViewList.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -30,7 +31,13 @@ public class MyLists extends AppCompatActivity {
 
             }
         });
-        }
+        ViewList1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent open2 = new Intent(MyLists.this, createList.class);
+                startActivity(open2);
+            }
+        });
+    }
 //    for any progress that the user has inputted the app will then keep that activity
     /*onStart is for when the user opens the app
     onRestart and onResume is when the app is closed(soft and hard) it will reappear
